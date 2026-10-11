@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "tentmod",
+  "version": "${version}",
+  "name": "TentMod",
+  "description": "A mod that adds a tent to Minecraft",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.maddoxblaze02.tentmod.TentMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.4"
+  }
+}
